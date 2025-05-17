@@ -1,0 +1,83 @@
+.packages{
+	margin: 10px 30px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.package-card{
+	width: calc((100% - 60px) / 3);
+	padding: 10px 10px;
+}
+.package-details{
+	padding: 10px 20px;
+	background-color: aliceblue;
+	border-radius: 15px;
+}
+.package-details img{
+	width: 100%;
+	border-radius: 15px;
+}
+.package-title{
+	text-align: center;
+	font-size: 28px;
+	text-transform: uppercase;
+}
+.package-price{
+	text-align: center;
+	color: green;
+	font-size: 22px;
+}
+.view-package-link{
+	color: white;
+	padding: 10px 30px;
+	background-color: var(--logo1);
+	text-decoration: none;
+	display: block;
+	margin: auto;
+	text-align: center;
+	border-radius: 10px;
+}
+.package {
+	background-color: aliceblue;
+}
+.single-package-details{
+	display: flex;
+}
+.single-package-details .image{
+	width: 60%;
+}
+.image img {
+	width: 100%;
+}
+.single-package-details .details{
+	width: 40%;
+}
+.details{
+	padding: 20px 30px;
+}
+.desc-title{
+	font-size: 32px;
+	text-transform: uppercase;
+}
+.single-package-desc{
+	text-align: justify;
+}
+.feature-title{
+	margin-top: 20px;
+	font-size: 32px;
+	text-transform: uppercase;
+}
+.single-package-feature{
+	font-weight: 600;	
+	font-size: 18px;
+}
+.single-package-price{
+	padding: 15px 0px;
+	display: block;
+	margin: auto;
+	background-color: green;
+	color: white;
+	font-size: 26px;
+	border-radius: 15px;
+	text-align: center;
+	margin-top: 100px;
+}
